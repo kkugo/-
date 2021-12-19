@@ -1,0 +1,10 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>D30098@D30099@D30000@D30001 27</StartArguments>
+    <StartWorkingDirectory>C:\obj\plcreadwork</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartArguments>D30098@D30099@D30000@D30001 27</StartArguments>
+    <StartWorkingDirectory>C:\obj\plcreadwork</StartWorkingDirectory>
+  </PropertyGroup>
+</Project>

@@ -5,7 +5,7 @@ from pymodbus.client.sync import ModbusSerialClient as ModbusClient
 fname='rec\\power'+str(datetime.date.today())+'.txt'
 
 
-client = ModbusClient(method = "rtu", port="COM2",stopbits = 2, bytesize = 8, parity = 'N', baudrate= 9600, timeout= 1)
+client = ModbusClient(method = "rtu", port="COM3",stopbits = 2, bytesize = 8, parity = 'N', baudrate= 9600, timeout= 1)
 client.connect()
 
 result= client.read_holding_registers(address=0x200, count=10, unit= 1)
